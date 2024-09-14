@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky">
+<nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid justify-content-between">
         <div class="d-flex">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="d-flex">
-            <a class="navbar-brand " href="#"><img src="{{ asset('img/Logo.svg') }}" alt="Threaded logo" srcset=""></a>
+            <a class="navbar-brand " href="/"><img src="{{ asset('img/Logo.svg') }}" alt="Threaded logo" srcset=""></a>
         </div>
         <div class="d-flex">
 
@@ -31,7 +31,15 @@
                     <a class="nav-link "  href="#"><i class='bx bx-user nav-icon' ></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"  href="#"><i class='bx bx-shopping-bag nav-icon' ></i></a>
+                    <div class="dropdown">
+                        <a class="nav-link" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false"><i class='bx bx-shopping-bag nav-icon' ></i></a>
+                        <div class="dropdown-menu">
+                            <div id="cart-icon-items">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"  href="#"><i class='bx bx-heart nav-icon' ></i></a>
@@ -53,3 +61,6 @@
         </div>
     </div>
 </nav>
+
+
+

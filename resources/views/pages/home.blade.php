@@ -235,7 +235,7 @@
                 <div class="d-flex align-items-center justify-content-between">
                     <label for="" class="montserrat-600" style="">$38</label> 
                     <div>
-                        <button class="button-black"><i class='bx bx-shopping-bag' ></i></button>
+                        <button class="button-black" onclick="addToCart(1, 'Long Sleeve Bodysuit', 38)"><i class='bx bx-shopping-bag' ></i></button>
                     </div>
                 </div>
             </div>
@@ -254,7 +254,7 @@
                         <label for="" class="montserrat-600 text-decoration-line-through" style="">$7.34</label> 
                     </div>
                     <div>
-                        <button class="button-black"><i class='bx bx-shopping-bag' ></i></button>
+                        <button class="button-black" onclick="addToCart(2, 'Crossbody Bag', 5.77)"><i class='bx bx-shopping-bag' ></i></button>
                     </div>
                 </div>
             </div>
@@ -273,7 +273,7 @@
                         <label for="" class="montserrat-600 text-decoration-line-through" style="">$39</label> 
                     </div> 
                     <div>
-                        <button class="button-black"><i class='bx bx-shopping-bag' ></i></button>
+                        <button class="button-black" onclick="addToCart(3, 'Fringe Scarf', 29)"><i class='bx bx-shopping-bag' ></i></button>
                     </div>
                 </div>
             </div>
@@ -290,7 +290,7 @@
                     <label for="" class="montserrat-600" style="">$45.99</label> 
 
                     <div>
-                        <button class="button-black"><i class='bx bx-shopping-bag' ></i></button>
+                        <button class="button-black " onclick="addToCart(4, 'Sleeve Dress', 45.99)"><i class='bx bx-shopping-bag' ></i></button>
                     </div>
                 </div>
             </div>
@@ -310,7 +310,7 @@
                     </div> 
 
                     <div>
-                        <button class="button-black"><i class='bx bx-shopping-bag' ></i></button>
+                        <button class="button-black"  onclick="addToCart(5, 'Formal Dress', 69)"><i class='bx bx-shopping-bag' ></i></button>
                     </div>
                 </div>
                 

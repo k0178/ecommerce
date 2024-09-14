@@ -186,3 +186,24 @@ body {
     width: 37.5px;
     height: 25px;
 }
+
+.dropdown-menu{
+    border: 1px #f2f2f2 solid!important;
+    border-radius: 0%!important;
+    outline: none!important;
+}
+
+#cart-icon-items{
+    padding: 15px;
+    font-size: 12px;
+    width: 200px;
+}
+
+#cart-items{
+    padding: 40px;
+    font-size: 16px;
+}
+
+ul{
+    list-style-type: none;
+}
