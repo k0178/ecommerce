@@ -3,3 +3,186 @@
 body {
     font-family: 'Montserrat', sans-serif!important;
 }
+
+.montserrat-600 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.montserrat-800 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.nav-item {
+    padding: 9px 14px 9px 15px !important;
+    font-size: 14px;
+}
+
+.nav-icon{
+    font-size: 20px;
+    color: #999999;
+}
+
+.currency{
+    width: 110px;
+    height: 35px;
+    border-radius: 35px;
+    border: #f2f2f2 1px solid;
+}
+
+.benefits{
+    background: #f2f2f2;
+}
+
+.hero{
+    background-image: url('../img/Hero.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vip{
+    background-image: url('../img/bg.png');
+    height: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+}
+
+.new-in{
+    background-image: url('../img/newin.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+}
+
+.site-wide-deals{
+    padding: 45px 69px 45px 69px;
+}
+
+.deals-label{
+    font-size: 12px;
+}
+
+.button-black{
+    padding: 10px 20px 10px 20px;
+    background: #000;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.button-white{
+    padding: 10px 20px 10px 20px;
+    background: white;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.trending-img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.trending-card{
+    padding: 15px;
+    text-align: center;
+}
+
+.trending-card label{
+    padding-top: 10px;
+}
+
+
+.bfe{
+    font-size: 32px;
+}
+
+.hashtag{
+    border: 1px #000 solid;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px ;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.hashtag-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 62px;
+    padding-top: 30px;
+}
+
+.na-header{
+    text-transform: uppercase;
+    color: white;
+    font-size: 86px;
+}
+
+
+.recent-card{
+    width: 265px;
+    height: 415px;
+    padding: 20px;
+    /* border: 1px black solid; */
+}
+
+.recent-img{
+    width: 225;
+    height: 300px;
+}
+
+.recent-card label
+{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.recent-product-name{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.search{
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 10px;
+    background: #f2f2f2;
+    font-size: 14px;
+    width: 354px;
+}
+
+.footer {
+    padding: 40px;
+}
+
+
+.payment img{
+    width: 37.5px;
+    height: 25px;
+}
