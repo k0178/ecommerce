@@ -17,6 +17,12 @@ To go to the file folder using the terminal
 - ``` code . ``` to open project using VSCode
 
 To run the project
+
+> [!CAUTION]
+> If you encountered an error saying: PHP Warning:  require(C:\Users\Folder\folder-name/vendor/autoload.php): Failed to open stream: No such file or directory,
+just run ```composer install``` again.
+
+- Create a duplicate file of the ```.env.example``` file and rename it to ```.env```
 - ```php artisan key:generate```
 - ```php artisan serve ```
 - The project will run at ```localhost:8000``` in your browser.
